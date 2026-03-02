@@ -1,0 +1,10 @@
+[hyprgrid]
+description = "Grid layout"
+version = "1.0.0"
+author = "hyprgrid"
+
+[hyprgrid.build]
+output = "./gridLayoutPlugin.so"
+steps = [
+"make"
+]
